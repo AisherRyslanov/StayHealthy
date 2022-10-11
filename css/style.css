@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0;
+}
+
+#header {
+    background: #161D2F;
+}
+
+#choose {
+    background: #161D2F;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu a {
+    margin: 0 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.header h1 {
+    margin-left: 40px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.header button {
+    padding: 10px 15px;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+}
+
+.choose h4 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.choose h1 {
+    width: 50%;
+    font-size: 62px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-1{
+    transition: 1s;
+}
+.btn-1:hover{
+    background: transparent;
+    transition: 1s;
+}
+.choose h1 span {
+    display: flex;
+    justify-content: center;
+}
+
+.choose p {
+    width: 40%;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.btn-join {
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    padding: 10px 15px;
+    border: none;
+    color: #FFFFFF;
+    transition: 1s;
+}
+.btn-join:hover{
+    background: transparent;
+}
+.btn-contact {
+    border-radius: 28px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border: solid 1px white;
+    background: transparent;
+    transition: 1s;
+}
+.btn-contact:hover{
+    background: #3043A9;
+}
+.buttons {
+    width: 15%;
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.video {
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0 0 0;
+}
+
+.slider h1 {
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a:hover {
+    background: #FFFFFF;
+    color: #161D2F;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderSwiper {
+    width: 800px;
+}
+
+.swiper-slide {
+    margin-top: 30px;
+    flex-direction: column;
+    width: 270px;
+    height: 45px;
+}
+
+.swiper-slide h6 {
+    width: 146px;
+    height: 26px;
+    font-size: 14px;
+    color: #222222;
+}
+
+.swiper-slide a {
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+
+.workout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Discipline {
+    width: 200px;
+    height: 60px;
+    background: #161D2F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.Discipline p {
+    margin: 0 0 0 10px;
+    color: #FFFFFF;
+}
+
+.Eating p {
+    margin: 0 0 0 10px;
+    color: #FFFFFF;
+}
+
+.Eating {
+    width: 200px;
+    height: 60px;
+    background: #161D2F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 450px;
+}
+
+.image1 {
+    margin: 0 0 0 100px;
+}
+
+.image2 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.Nutritions {
+    margin-top: 80px;
+    line-height: 30px;
+}
+
+.Nutritions h4 {
+    width: 79px;
+    height: 21px;
+    font-size: 14px;
+    color: #222222;
+    line-height: 1px;
+}
+
+.Nutritions h1 {
+    line-height: 40px;
+}
+
+.btn-join2 {
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    padding: 10px 15px;
+    border: none;
+    color: #FFFFFF;
+    transition: 1s;
+}
+.btn-join2:hover{
+    background: transparent;
+    color: black;
+}
+#Pricing {
+    margin-top: 260px;
+    background: linear-gradient(90deg, #09203F 0%, #161D2F 100%);
+}
+
+.Pricing {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.Pricing p {
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+
+.Pricing h1 {
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#slider {
+    margin: 50px;
+}
+
+.cards {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    height: 582px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 16px 35px rgba(112, 144, 176, 0.2);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 90px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img {
+    margin: 20px 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon p {
+    margin: 0 10px;
+    color: black;
+}
+
+.btnTitle {
+    color: black;
+    font-size: 32px;
+}
+.btn:focus{
+    background: #FFFFFF;
+    color: black;
+}
+.mouth {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(34, 34, 34, 0.66);
+}
+
+.btn {
+    padding: 15px 20px;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    color: #FFFFFF;
+    border: none;
+    transition: 1s;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: end;
+}
+
+.block {
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 0 50% 0 50%;
+    background: green;
+    margin-left: 233px;
+    margin-top: -11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popularDesc{
+    color: #FFFFFF;
+}
+#Benefits{
+
+    margin: 400px 0 200px 0;
+}
+.aboutUs{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    text-align: center;
+}
+.Benefits{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.number{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background: black;
+    margin: 0 40px 0 40px;
+}
+.number h1{
+    display: flex;
+    justify-content: center;
+}
+.vector{
+    margin-left: 200px;
+}
+.Addres{
+    width: 1110px;
+    height: 406px;
+    margin-left: 200px;
+    margin-top: 200px;
+    background: #161D2F;
+    border-radius: 20px;
+}
+.Addres h1{
+    width: 571px;
+    height: 90px;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 0 ;
+}
+.Addres input{
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 34px;
+    background: #161D2F;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.btn-Ad{
+    width: 120px;
+    height: 50px;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border: none;
+    border-radius: 28px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    transition: 1s;
+}
+.brli{
+    margin-left: 700px;
+    margin-top: -250px;
+}
+#blog{
+    padding: 200px;
+}
+.StayHealthy{
+
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.btn-Ad:hover{
+    background: transparent;
+    color: #FFFFFF;
+}
+
